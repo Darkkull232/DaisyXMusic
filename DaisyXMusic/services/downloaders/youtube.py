@@ -20,8 +20,8 @@ from os import path
 
 from youtube_dl import YoutubeDL
 
-from DaisyXMusic.config import DURATION_LIMIT
-from DaisyXMusic.helpers.errors import DurationLimitError
+from 𝗗𝗔𝗥𝗞 𝗦𝗞𝗨𝗟𝗟 | 【﻿𝗙 𝗛 𝗕】.config import DURATION_LIMIT
+from 𝗗𝗔𝗥𝗞 𝗦𝗞𝗨𝗟𝗟 | 【﻿𝗙 𝗛 𝗕】.helpers.errors import DurationLimitError
 
 ydl_opts = {
     "format": "bestaudio/best",
