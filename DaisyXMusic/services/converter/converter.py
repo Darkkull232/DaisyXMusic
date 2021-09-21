@@ -18,7 +18,7 @@
 import asyncio
 from os import path
 
-from DaisyXMusic.helpers.errors import FFmpegReturnCodeError
+from 𝗗𝗔𝗥𝗞 𝗦𝗞𝗨𝗟𝗟 | 【﻿𝗙 𝗛 𝗕】.helpers.errors import FFmpegReturnCodeError
 
 
 async def convert(file_path: str) -> str:
