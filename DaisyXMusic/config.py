@@ -1,4 +1,4 @@
-# DAISYXMUSIC- Telegram bot project
+# 𝗗𝗔𝗥𝗞 𝗦𝗞𝗨𝗟𝗟 | 【﻿𝗙 𝗛 𝗕】- Telegram bot project
 # Copyright (C) 2021  Roj Serbest
 # Copyright (C) 2021  Inuka Asith
 # This program is free software: you can redistribute it and/or modify
@@ -27,15 +27,15 @@ que = {}
 SESSION_NAME = getenv("SESSION_NAME", "session")
 BOT_TOKEN = getenv("BOT_TOKEN")
 BOT_NAME = getenv("BOT_NAME")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "DaisyXupdates")
-BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/dcfdf612e499eef0e0b1f.png")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "Teletechsupport_channel")
+BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/fe96c41103b970c58b61b.jpg")
 admins = {}
 API_ID = int(getenv("API_ID", ""))
 API_HASH = getenv("API_HASH")
 BOT_USERNAME = getenv("BOT_USERNAME")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "DaisyXhelper")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "DaisySupport_Official")
-PROJECT_NAME = getenv("PROJECT_NAME", "DaisyXMusic v5")
+ASSISTANT_NAME = getenv("ASSISTANT_NAME", "𝗗𝗔𝗥𝗞 𝗦𝗞𝗨𝗟𝗟 | 【﻿𝗙 𝗛 𝗕】")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "Teletech_supportgroup")
+PROJECT_NAME = getenv("PROJECT_NAME", "𝗗𝗔𝗥𝗞 𝗦𝗞𝗨𝗟𝗟 | 【﻿𝗙 𝗛 𝗕】")
 SOURCE_CODE = getenv("SOURCE_CODE", "github.com/TeamDaisyX/DaisyXMusic")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "7"))
 ARQ_API_KEY = getenv("ARQ_API_KEY", None)
