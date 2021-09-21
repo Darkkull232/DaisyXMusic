@@ -20,11 +20,12 @@ from asyncio import QueueEmpty
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from DaisyXMusic.function.admins import set
-from DaisyXMusic.helpers.decorators import authorized_users_only, errors
-from DaisyXMusic.services.callsmusic import callsmusic
-from DaisyXMusic.services.queues import queues
-from DaisyXMusic.config import que
+from Darkskull.function.admins import set
+from Darkskull.helpers.decorators import authorized_users_only, errors
+from Darkskull.helpers.decorators import authorized_users_only, errors
+from Darkskull.services.callsmusic import callsmusic
+from Darkskull.services.queues import queues
+from Darkskull.config import que
 
 
 @Client.on_message(
