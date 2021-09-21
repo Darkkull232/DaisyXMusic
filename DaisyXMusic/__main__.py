@@ -1,4 +1,4 @@
-# DaisyXMusic (Telegram bot project)
+# 𝗗𝗔𝗥𝗞 𝗦𝗞𝗨𝗟𝗟 | 【﻿𝗙 𝗛 𝗕】 (Telegram bot project)
 # Copyright (C) 2021  Inuka Asith & Rojserbest
 
 # This program is free software: you can redistribute it and/or modify
@@ -18,8 +18,8 @@
 import requests
 from pyrogram import Client as Bot
 
-from DaisyXMusic.config import API_HASH, API_ID, BG_IMAGE, BOT_TOKEN
-from DaisyXMusic.services.callsmusic import run
+from 𝗗𝗔𝗥𝗞 𝗦𝗞𝗨𝗟𝗟 | 【﻿𝗙 𝗛 𝗕】.config import API_HASH, API_ID, BG_IMAGE, BOT_TOKEN
+from 𝗗𝗔𝗥𝗞 𝗦𝗞𝗨𝗟𝗟 | 【﻿𝗙 𝗛 𝗕】.services.callsmusic import run
 
 response = requests.get(BG_IMAGE)
 file = open("./etc/foreground.png", "wb")
@@ -31,7 +31,7 @@ bot = Bot(
     API_ID,
     API_HASH,
     bot_token=BOT_TOKEN,
-    plugins=dict(root="DaisyXMusic.modules"),
+    plugins=dict(root="𝗗𝗔𝗥𝗞 𝗦𝗞𝗨𝗟𝗟 | 【﻿𝗙 𝗛 𝗕】.modules"),
 )
 
 bot.start()
