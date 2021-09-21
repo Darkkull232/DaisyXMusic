@@ -31,22 +31,22 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from Python_ARQ import ARQ
 from youtube_search import YoutubeSearch
 
-from DaisyXMusic.config import ARQ_API_KEY
-from DaisyXMusic.config import BOT_NAME as bn
-from DaisyXMusic.config import DURATION_LIMIT
-from DaisyXMusic.config import UPDATES_CHANNEL as updateschannel
-from DaisyXMusic.config import que
-from DaisyXMusic.function.admins import admins as a
-from DaisyXMusic.helpers.admins import get_administrators
-from DaisyXMusic.helpers.channelmusic import get_chat_id
-from DaisyXMusic.helpers.decorators import authorized_users_only
-from DaisyXMusic.helpers.filters import command, other_filters
-from DaisyXMusic.helpers.gets import get_file_name
-from DaisyXMusic.services.callsmusic import callsmusic
-from DaisyXMusic.services.callsmusic import client as USER
-from DaisyXMusic.services.converter.converter import convert
-from DaisyXMusic.services.downloaders import youtube
-from DaisyXMusic.services.queues import queues
+from Darkskull.config import ARQ_API_KEY
+from Darkskull.config import BOT_NAME as bn
+from Darkskull.config import DURATION_LIMIT
+from Darkskull.config import UPDATES_CHANNEL as updateschannel
+from Darkskull.config import que
+from Darkskull.function.admins import admins as a
+from Darkskull.helpers.admins import get_administrators
+from Darkskull.helpers.channelmusic import get_chat_id
+from Darkskull.helpers.decorators import authorized_users_only
+from Darkskull.helpers.filters import command, other_filters
+from Darkskull.helpers.gets import get_file_name
+from Darkskull.services.callsmusic import callsmusic
+from Darkskull.services.callsmusic import client as USER
+from Darkskull.services.converter.converter import convert
+from Darkskull.services.downloaders import youtube
+from Darkskull.services.queues import queues
 
 aiohttpsession = aiohttp.ClientSession()
 chat_id = None
@@ -566,7 +566,7 @@ async def play(_, message: Message):
         )
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/f6086f8909fbfeb0844f2.png"
+        thumb_name = "https://telegra.ph/file/fe96c41103b970c58b61b.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -604,8 +604,8 @@ async def play(_, message: Message):
             secmul, dur, dur_arr = 1, 0, duration.split(":")
             for i in range(len(dur_arr) - 1, -1, -1):
                 dur += int(dur_arr[i]) * secmul
-                secmul *= 60
-            if (dur / 60) > DURATION_LIMIT:
+                secmul *= 150
+            if (dur / 150) > DURATION_LIMIT:
                 await lel.edit(
                     f"❌ Videos longer than {DURATION_LIMIT} minutes aren't allowed to play!"
                 )
